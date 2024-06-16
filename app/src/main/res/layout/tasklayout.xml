@@ -1,0 +1,32 @@
+
+
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginVertical="18dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        tools:context=".MainActivity">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <CheckBox
+                android:id="@+id/todocheckbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:foregroundTint="#FFFFFF"
+                android:paddingStart="8dp"
+                android:text="Example task"
+                app:buttonIconTint="#FFFFFF" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
